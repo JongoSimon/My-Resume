@@ -1,0 +1,15 @@
+
+header {
+    background-color: #323b4c;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.face-id {
+    border-radius: 30px;
+}
+
+.infocontact {
+    background-color: #e4e4e4;
+}
