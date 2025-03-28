@@ -5,30 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
-    <title>My Resume</title>
+    <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <div class="row">
-        <div class="containter offset-2 col-1">
-             <img class="face-id" src="./image id.jpg" alt="my picture" width="100">
-        </div>
-        <div class="container col-11">
-             <h2>Simon, Fometenou Jongo</h2>
-             <p>Position</p>
-          </div>
-        </div>
-    </header>
-    <section class="row">
-        <div class="infocontact col-4">
-            <h2 class="tel">contact</h2>
-            <p><span>📞</span>+1234567890</p>
-            <P><span>📧</span>simonjongo@gmail.com</P>
-            <p><span>📍</span> 14 Southern oaks Lane, Long Beach</p>
-        </div>
-        <div class="resumeinfo col-8">
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll" style="background-color: #6c898b;">
+        <div class="container">
+            <a class="navbar-brand" href="#">Jongo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
 
+            </div>
         </div>
+    </nav>
+     <!-- main banner -->
+     <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Bonjour, This is Jongo</h2>
+                <p class="hero_desc">I am a future full stack developer currently in MCA-Biloxi</MCA-Biloxi></p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="./image id.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="mydesc" class="col-lg-8">
+                    <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Jongo, Simon</li>
+                                <li>Age: 30</li>
+                                <li>Occupation: Student Web Developer</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Sex: Male</li>
+                                <li>Ethnic: Black African</li>
+                                <li>Passion: Basketball</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        </p>
+                    </div>
+                </div>
+            </div>
     </section>
 </body>
 </html>
