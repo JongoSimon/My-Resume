@@ -52,4 +52,20 @@ p:hover {
     cursor: pointer;
 }
 
+.sect3 {
+    background-color: #385a5d;
+}
 
+.sect4 {
+    background-color: #042b2f;
+}
+
+.h1contact {
+    color: #8c9230;
+}
+
+/* footer styling */
+#footer {
+    background-color: #385a5d;
+    text-align: center;
+}
